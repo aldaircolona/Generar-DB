@@ -1,0 +1,9 @@
+#datos generador
+data/
+
+# Archivos Excel
+*.xlsx
+
+# Archivos temporales de Excel
+~$*.xlsx
+~$*.xls
