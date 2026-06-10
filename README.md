@@ -16,13 +16,14 @@ Diseño escalable para conjuntos de datos de gran tamaño.
 
 ## Tecnologías Utilizadas
 
-Python 3.12
-Módulo csv
-Módulo random
-Módulo os
+- Python 3.12
+- Módulo csv
+- Módulo random
+- Módulo os
 
 ## Estructura del Proyecto
 
+```text
 Proyecto/
 │
 ├── data/
@@ -37,6 +38,7 @@ Proyecto/
 │
 ├── .gitignore
 └── README.md
+```
 
 ## Funcionamiento
 
@@ -47,16 +49,20 @@ Los registros se escriben directamente en un archivo CSV que se ubicará en el d
 
 ## Ejecución
 
+```bash
 python main.py
+```
 
 ## Formato de Salida
 
 Ejemplo de archivo generado:
 
+```text
 dni,nombres,apellidos,genero
 64133521,Armando Reynaldo,Campos Dueñas,M
 87783560,Leslie Elisa,Zevallos Molina,F
 50675327,Viviana Valentina,Delgado Garrido,F
+```
 
 ## Casos de Uso
 
